@@ -15,8 +15,8 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    color: black;
+a:visited, a:link, a:hover{
+    color:black;
 }
 
 #nav-bar{
@@ -30,10 +30,9 @@ a:hover{
 }
 
 #nav-bar  ul  li{
-    display: inline;
-    margin: 1%;
+    display: inline;    
     font-size: 100%;
-    padding: 5% 4%;
+    padding: 5% 2%;
 }
 
 #quienes-somos > h2{
