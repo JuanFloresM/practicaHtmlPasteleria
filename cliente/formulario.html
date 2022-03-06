@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pasteleria cosmos - pedido</title>
+</head>
+<body class="pedido">
+    <h1>
+        Pedido
+    </h1>
+    <form action="">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        <br><br>
+        <label for="apelllido">Apellidos</label><br>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellidos">
+        <br><br>
+        <label for="telefono">Telefono</label><br>
+        <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
+        <br><br>
+        <label for="correo">Correo eléctronico</label><br>
+        <input type="email" name="correo" id="correo" placeholder="Correo">
+        <br><br>
+        <label for="descripcion">Descripcion</label><br>
+        <textarea name="descripcion" id="descripcion" placeholder="Descripcion del pastel">
+        </textarea>
+        <br><br>
+        <label for="cantidad">Cantidad de pasteles</label><br>
+        <input type="number" name="cantidad" id="cantidad" min="1" max="10" placeholder="2">
+        <br><br>
+        <hr>
+        <h3>Sabores</h3>
+        <label for="choco-tierra">
+            <input type="checkbox" name="choco-tierra" id="choco-tierra">Choco tierra (Chocolate)
+        </label>
+        <br><br>
+        <label for="fresa">
+            <input type="checkbox" name="fresa" id="fresa">Fresa de Marte (Fresa)
+        </label>
+        <br><br>
+        <label for="cholate-lunar">
+            <input type="checkbox" name="cholate-lunar" id="cholate-lunar">Chocolate Luna (Chocolate blanco)
+        </label>
+        <br><br>
+        <label for="sol-cosmico">
+            <input type="checkbox" name="sol-cosmico" id="sol-cosmico">Sol cosmico (Vanilla)
+        </label>
+        <br><br>
+        <label for="combinar">
+            <input type="checkbox" name="combinar" id="combinar">Combinar
+        </label>
+        <br><br>
+        <hr>
+        <h3>Adornos</h3>
+        <label for="estrellas">
+            <input type="checkbox" name="estrellas" id="estrellas">Estrellas
+        </label>
+        <br><br>
+        <label for="cohetes">
+            <input type="checkbox" name="cohetes" id="cohetes">Cohetes
+        </label>
+        <br><br>
+        <label for="meteoros">
+            <input type="checkbox" name="meteoros" id="meteoros">Meteoros
+        </label>
+        <br><br>
+        <label for="ovnis">
+            <input type="checkbox" name="ovnis" id="ovnis">Ovnis
+        </label>
+        <br><br>
+        
+        <a href="./index.html">
+            <input type="button" value="Enviar" onclick="alert('El pedido se envio correctamente al pastelero')">
+        </a>
+        <br><br>
+    </form>
+</body>
+</html>

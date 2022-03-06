@@ -1,0 +1,52 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1, h2, b{
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2{
+    margin: 2% 0%;
+}
+
+
+form, input, label{
+    margin: 1.5%;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0% 5%;
+}
+nav{
+    background-color: #ffbaba;  
+    margin: 0% 30%;
+    padding: 0.01em 0em;    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+#pedidos, #adornos, #material{
+    padding: 3% 0% 5% 0%;
+}
+
+table{
+    width: 60%;
+}
+table, th, td{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 0.5%;
+}
+
+
+
